@@ -40,7 +40,7 @@ Flash your printer with obtained hex file. After flashing the firmware, no matte
 
 - connect the printer via USB cable
 - open the terminal program, select the appropriate USB serial interface (on Mac: `SLAB_USBtoUART`)
-- change `baud rate` or `Baudrate` to `250000 bps` _(the original Anycubic firmware is set to a baud rate of `115200 bps`)_
+- change `baud rate` or `Baudrate` to `115200 bps` _(the original Anycubic firmware is set to a baud rate of `115200 bps`)_
 - connect and wait for the EEPROM values to be output
 - send the following commands: `M502` (Factory Reset) and `M500` (Save Settings)
 - now you can disconnect the printer, for safety's turn the printer off and on again.
